@@ -12,5 +12,7 @@
 @interface TitleTableViewDataSource : NSObject <UITableViewDataSource>
 
 - (NSString *)titleAtIndexPath:(NSIndexPath *)path;
+- (NSArray *)titles;
+
 
 @end
